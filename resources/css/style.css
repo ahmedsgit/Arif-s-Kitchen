@@ -181,7 +181,9 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+/*----------------------------------------------------*/
 /* Feature Section */
+/*----------------------------------------------------*/
 section {
     padding: 80px 0;
 }
@@ -211,6 +213,27 @@ section {
     margin-bottom: 10px;
 }
 
-h3 {
-    text-align: center;
+/*----------------------------------------------------*/
+/* Meals Section */
+/*----------------------------------------------------*/
+.meals-showcase {
+    list-style: none;
+    width: 1005;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
+
 }
