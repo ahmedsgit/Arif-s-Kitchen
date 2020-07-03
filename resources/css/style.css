@@ -219,12 +219,38 @@ section {
   line-height: 145%;
 }
 
+/* ----icons---- */
 .icon-big ion-icon {
   display: block;
   font-size: 350%;
   color: #e67e22;
   margin-left: 33%;
   margin-bottom: 10px;
+}
+.icon-small ion-icon {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  font-size: 120%;
+  line-height: 120%;
+  color: #e67e22;
+  margin-right: 5px;
+  vertical-align: middle;
+  margin-top: -6px;
+}
+/* ----Links---- */
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #e67e22;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  transition: border-bottom 0.4s, color 0.4s;
+}
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
 }
 
 /*----------------------------------------------------*/
@@ -308,8 +334,25 @@ section {
 .works-step br {
   margin-top: 20px;
 }
+.btn-app:link,
+.btn-app:visited {
+  border: 0;
+}
 .btn-app img {
   height: 50px;
   width: auto;
   margin-left: 10px;
+}
+
+/*----------------------------------------------------*/
+/* Cities */
+/*----------------------------------------------------*/
+.box img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.city-feature {
+  margin-bottom: 5px;
 }
