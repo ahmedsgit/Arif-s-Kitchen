@@ -1,0 +1,106 @@
+/* Big Tablet to 1200px(widths smaller that the 1140 row):*/
+@media only screen and (max-width: 1200px) {
+    .row {
+        padding: 0 2%;
+    }
+
+    /* header */
+    .hero-text-box {
+        width: 100%;
+        padding: 0 4%;
+        font-size: 95%;
+    }
+
+    /* Section Feature */
+    h3 {
+        font-size: 100%;
+    }
+
+    .box p {
+        font-size: 95%;
+    }
+
+    /* section Steps */
+    .section-steps .works-step div {
+        height: 50px;
+        width: 50px;
+    }
+
+    .section-steps .btn-app img {
+        height: 45px;
+        width: auto;
+    }
+
+        {}
+
+    /* Section Cities */
+    .section-cities .row .city-feature {
+        padding-left: 0px;
+    }
+
+    /* section plans */
+    .section-plans .icon-small li {
+        font-size: 95%;
+        margin-right: -5px;
+    }
+
+    /* Footer */
+    .footer-nav li {
+        font-size: 95%;
+    }
+
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    /* header */
+    header .main-nav {
+        margin-top: 60px;
+    }
+
+    header .logo {
+        height: 150px;
+        width: auto;
+    }
+
+    .hero-text-box {
+        font-size: 90%;
+    }
+
+    /* section Steps */
+    .section-steps .works-step div {
+        height: 45px;
+        width: 45px;
+    }
+
+    .section-steps .btn-app img {
+        height: 35px;
+        width: auto;
+    }
+
+    /* Section Cities */
+    .section-cities .city-feature,
+    .section-cities h3 {
+        padding-left: 0px;
+        font-size: 80%;
+    }
+
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/* Small Phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px) {}
+
+/* Small Phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {}
